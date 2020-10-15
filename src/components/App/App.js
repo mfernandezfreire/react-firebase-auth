@@ -48,6 +48,7 @@ function App() {
         <Navbar />
 
         <Switch>
+          <h1>Esto es una rama de Git Hub Otra Vez</h1>
           <PrivateRoute component={SecureArea} path="/" exact />
           <Route component={Login} path="/login" exact />
         </Switch>
